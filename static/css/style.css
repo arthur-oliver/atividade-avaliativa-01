@@ -1,3 +1,27 @@
+nav {
+    background-color: #2c69a7;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar-toggler{
+    background-color: #4788ca;
+    opacity: 80%;
+    border: none;
+}
+main{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main > button {
+    background-color: #042f5a;
+    color: #e2e2e2;
+    border-radius: 5vw;
+    border: none;
+    padding: 2vw;
+}
+#relatorio{
+    font-family:'Courier New', Courier, monospace;
+    color: #042f5a;
+    margin: 5%;
+}
 .container_exercicio {
     min-height: 100vh;
     padding-top: 100px;
@@ -6,4 +30,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+}
+body{
+    background-color: #e2e2e2;
 }
