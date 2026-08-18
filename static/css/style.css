@@ -58,3 +58,12 @@ background-color: #042f5a;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+@media (max-width: 768px) {
+    .imagem {
+        width: 100vw;
+        max-width: 100vw;
+        height: auto;
+        display: block;
+        margin-left: calc(50% - 50vw);
+    }
+}
