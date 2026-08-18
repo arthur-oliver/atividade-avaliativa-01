@@ -37,7 +37,7 @@ function calcularFrete(){
 
         let precoPeca = 0;
 
-        while (regiao < 1 || regiao > 3) {
+        while (regiao !== 1 && regiao !== 2 && regiao !== 3) {
             regiao = Number(prompt(
                 "Região inválida!\n1 - Sudeste\n2 - Sul\n3 - Centro-Oeste"
             ));

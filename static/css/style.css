@@ -9,6 +9,7 @@ nav {
 }
 main{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #042f5a;
 }
 main > button {
     background-color: #042f5a;
