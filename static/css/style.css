@@ -45,6 +45,16 @@ h3{
     align-items: center;
     gap: 20px;
 }
-body{
-    background-color: #e2e2e2;
+html, #main-body {
+  height: 100%;
+  margin: 0;
+}
+
+#main-body {
+background-color: #042f5a;
+  background-image: url('../../img/img_fundo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
