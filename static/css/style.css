@@ -9,7 +9,6 @@ nav {
 }
 main{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #042f5a;
 }
 main > button {
     background-color: #042f5a;
@@ -44,6 +43,16 @@ h3{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+}
+.container_index {
+    min-height: 100vh;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #042f5a;
 }
 html, #main-body {
   height: 100%;
